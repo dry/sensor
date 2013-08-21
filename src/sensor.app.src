@@ -1,0 +1,12 @@
+{application, sensor,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sensor_app, []}},
+  {env, []}
+ ]}.
